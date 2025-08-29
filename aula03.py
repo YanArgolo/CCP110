@@ -82,9 +82,12 @@
 #     print(f"Seu carro é novo, pois é do ano de {anocar}")
 
 #Exercício 7 
-distancia = int(input("Digite a distancia que deseja percorrer: "))
-precovicurta = 0.50 * {distancia}
-precovilonga = 0.45 * {distancia}
+# distancia = int(input("Digite a distancia que deseja percorrer: "))
+# precovicurta = 0.50 * distancia
+# precovilonga = 0.45 * distancia
 
-if distancia >= 200:
-    prin
+# if distancia <= 200:
+#     print(f"O valor da passagem eh: R$ {precovicurta: .2f}, pois sua viagem eh menor que 200km")
+    
+# else:
+#     print(f"O valor da passagem eh: R${precovilonga: .2f}, pois sua viagem eh maior que 200km")
