@@ -40,10 +40,30 @@ b = int(input("Digite o valor de B: "))
 c = int(input("Digite o valor de C: "))
 
 if a > b and a > c:
-    #print(f"O maior valor é A: {a}")
+    print(f"O maior valor é A: {a}")
+    if b>c:
+        print(a,b,c)
+    elif c>b:
+        print(a,c,b)
+elif b> a and b>c:
+    print(f"O maior valor é B: {b}")
+    if a>c:
+        print(b,a,c)
+    elif c>a:
+        print(b,c,a)
+elif c>a and c>b:
+    print(f"O maior valor é C: {c}")
+    if a>b:
+        print(c,a,b)
+    elif b>a:
+        print(c,b,a)
+else: print("Os números são iguais.")
 
-elif b > a and b > c:
-    #print(f"O maior valor é B: {b}")
+
+
+
+# elif b > a and b > c:
+#     #print(f"O maior valor é B: {b}")
     
-elif c > a and c > a:
-    #print(f"O maior valor é C: {c}")    
+# elif c > a and c > a:
+#     #print(f"O maior valor é C: {c}")    
