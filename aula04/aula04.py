@@ -35,35 +35,53 @@
 #     print(f"Procedência Importada, Preço: R${preco:.2f}")
 
 #Exercicio 2
-a = int(input("Digite o valor de A: "))
-b = int(input("Digite o valor de B: "))
-c = int(input("Digite o valor de C: "))
+# a = int(input("Digite o valor de A: "))
+# b = int(input("Digite o valor de B: "))
+# c = int(input("Digite o valor de C: "))
 
-if a > b and a > c:
-    print(f"O maior valor é A: {a}")
-    if b>c:
-        print(a,b,c)
-    elif c>b:
-        print(a,c,b)
-elif b> a and b>c:
-    print(f"O maior valor é B: {b}")
-    if a>c:
-        print(b,a,c)
-    elif c>a:
-        print(b,c,a)
-elif c>a and c>b:
-    print(f"O maior valor é C: {c}")
-    if a>b:
-        print(c,a,b)
-    elif b>a:
-        print(c,b,a)
-else: print("Os números são iguais.")
+# if a > b and a > c:
+#     print(f"O maior valor é A: {a}")
+#     if b>c:
+#         print(a,b,c)
+#     elif c>b:
+#         print(a,c,b)
+# elif b> a and b>c:
+#     print(f"O maior valor é B: {b}")
+#     if a>c:
+#         print(b,a,c)
+#     elif c>a:
+#         print(b,c,a)
+# elif c>a and c>b:
+#     print(f"O maior valor é C: {c}")
+#     if a>b:
+#         print(c,a,b)
+#     elif b>a:
+#         print(c,b,a)
+# else: print("Os números são iguais.")
 
+# Exercicio 3
+# sexo= input("Digite seu sexo: ")
+# altura= float(input("Digite sua altura: "))
+# if sexo== 'homem':
+#     h= (72.7 * altura) - 58
+#     print(f"Seu peso ideal é: {h:.2f}kg")
+# elif sexo== 'mulher': 
+#     m= (62.1 * altura) - 44.7
+#     print(f"Seu peso ideal é: {m:.2f}kg")
+# else:
+#     print("Digite um sexo válido!")
 
-
-
-# elif b > a and b > c:
-#     #print(f"O maior valor é B: {b}")
-    
-# elif c > a and c > a:
-#     #print(f"O maior valor é C: {c}")    
+# Exercicio 4
+# ano= int(input("Digite seu ano de nascimento: "))
+# idade= 2025-ano
+# if idade>= 18:
+#     print(f"Você tem {idade} anos de idade!")
+#     print("Você já pode votar e tirar sua habilitação!")
+# elif idade>= 16:
+#     print(f"Você tem {idade} anos de idade!")
+#     print("Você já pode votar!")
+#     print("Você não pode tirar sua habilitação!")
+# else:
+#     print("Você não pode fazer nada!")
+# Exercicio 5 
+fazer depois
