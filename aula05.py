@@ -77,7 +77,7 @@ while True:
         break
     soma= soma + n
     contador= contador+1
-
+X
 print(f"Quantidade de números: {contador}.") 
 print(f"soma dos numeros: {soma}.")
 if contador> 0:
