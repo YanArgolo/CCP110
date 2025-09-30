@@ -91,30 +91,31 @@
     
 # else:
 #     print(f"O valor da passagem eh: R${precovilonga: .2f}, pois sua viagem eh maior que 200km")
-from math import ceil
-raio = float(input("Digite o raio do cilindro: "))
-altura = float(input("Digite a altura do cilindro: "))
-pi = 3.1415
-abase = (raio **2) * pi
-perimetro = 2 * pi * raio * altura
-alateral = altura * perimetro
-acilindro = abase + alateral
-litro = acilindro / 3
-latas = ceil (litro/5)
+# from math import ceil
+# raio = float(input("Digite o raio do cilindro: "))
+# altura = float(input("Digite a altura do cilindro: "))
+# pi = 3.1415
+# abase = (raio **2) * pi
+# perimetro = 2 * pi * raio * altura
+# alateral = altura * perimetro
+# acilindro = abase + alateral
+# litro = acilindro / 3
+# latas = ceil (litro/5)
 
-if latas== 1:
-    preco_uni=50
-elif latas==2:
-    preco_uni=48
-elif latas==3:
-    preco_uni= 46
-else:
-    preco_uni=45
+# if latas== 1:
+#     preco_uni=50
+# elif latas==2:
+#     preco_uni=48
+# elif latas==3:
+#     preco_uni= 46
+# else:
+#     preco_uni=45
 
-preco_total=preco_uni*latas
+# preco_total=preco_uni*latas
 
-print(f"area a ser pintada: {acilindro:.2f}")
-print(f"quantidade de litros necessarios: {litro:.2f}")
-print(f"quantidade de latas: {latas}")
-print(f"preco da unidade: {preco_uni}")
-print(f"custo total: {preco_total}")
+# print(f"area a ser pintada: {acilindro:.2f}")
+# print(f"quantidade de litros necessarios: {litro:.2f}")
+# print(f"quantidade de latas: {latas}")
+# print(f"preco da unidade: {preco_uni}")
+# print(f"custo total: {preco_total}")
+
