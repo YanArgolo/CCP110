@@ -27,29 +27,35 @@
 #             else:
 #                 print("", end= "")
 #         print() 
+linhas = int(input("Digite a quantidade de linhas: "))
+num = 1
+for i in range(1, linhas):
+)
+    
+
 
 # Exercicio 3
-num_linhas= int(input("Digite o numero de linhas: "))
-num_colunas= int(input("Digite o numero de colunas: "))
+# num_linhas= int(input("Digite o numero de linhas: "))
+# num_colunas= int(input("Digite o numero de colunas: "))
 
-for linha in range(num_linhas):
-        for coluna in range(num_colunas):
-            if (linha+coluna) % 2 == 0:
-                print("*", end="")
-            else:
-                print("#", end= "")
-        print()
+# for linha in range(num_linhas):
+#         for coluna in range(num_colunas):
+#             if (linha+coluna) % 2 == 0:
+#                 print("*", end="")
+#             else:
+#                 print("#", end= "")
+#         print()
 
-# Exercicio 4
-num_linhas= int(input("Digite o numero de linhas: "))
-num_colunas= int(input("Digite o numero de colunas: "))
+# # Exercicio 4
+# num_linhas= int(input("Digite o numero de linhas: "))
+# num_colunas= int(input("Digite o numero de colunas: "))
 
-for linha in range(num_linhas):
-        for coluna in range(num_colunas):
-            if linha > coluna:
-                print("@", end="")
-            else:
-                print("$", end= "")
-        print() 
+# for linha in range(num_linhas):
+#         for coluna in range(num_colunas):
+#             if linha > coluna:
+#                 print("@", end="")
+#             else:
+#                 print("$", end= "")
+#         print() 
 
    
