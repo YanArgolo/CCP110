@@ -22,6 +22,15 @@
 # print(f"O maior valor é {maior} no indice {indice_maior}")
 
 #   Exercicio 4
+# lista = []
+# for c in range(10):
+
+
+#   Exercicio 5
 lista = []
-for c in range(10):
-    
+for i in range(5):
+    n = int(input("Digite um numero: "))
+    lista.append(n)
+print(lista)
+lista_reversa = lista(i-1)
+print(lista_reversa)
