@@ -23,11 +23,26 @@
 # # strings = ["maçã", "banana", "uva", "pera", "kiwi", "laranja", "melão"]
 # # completa = [inteiros, reais, strings]
 
-n = []
+def gerar_matriz(n_linhas, n_colunas):
+m= []
 
 for num_linha in range(10):
     linha = []
     for num_coluna in range(15):
         linha.append(num_linha + num_coluna)
-        n.append(linha)
-        
+        m.append(linha)
+
+print(m)
+print(len(m[0]))
+
+for linha in range(len(m)):
+    for coluna in range (len(m[linha])):
+        print(f"{m[linha][coluna]: 4}", end="")
+    print()
+
+print("--------------")
+for linha in range(len(m)):
+    print(m[linha[0]])
+
+for linha in m:
+    print(linha[0])a
