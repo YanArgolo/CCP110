@@ -49,3 +49,21 @@
 # print(lista)
 # lista_reversa = lista[::-1] #:: serve para omitir o início e fim da lista
 # print(lista_reversa)
+
+#   Exercicio 6
+# lista = []
+# for c in range(10):
+#     n = int(input("Digite um numero: "))
+#     lista.append(n)
+# print(lista)
+#falta terminar
+
+#   Exercicio 7
+temperaturas= [-10, -8, 0, 1, 2, 5, -2, -4]
+temp_media= (-10 -8 + 0 +1 +2 +5 -2 -4 ) /8
+print()
+print(temperaturas)
+print("Maior: 5")
+print("Menor:-10")
+print(f"Media: {temp_media} ")
+print()
