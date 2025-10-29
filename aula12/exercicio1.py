@@ -1,0 +1,1 @@
+with open("pares.txt", "r") as pares 
